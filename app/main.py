@@ -19,7 +19,7 @@ def index():
 
 def main():
     """主函数"""
-    print("runing")
+    app.run("0.0.0.0", "2333")
 
 
 if __name__ == "__main__":
